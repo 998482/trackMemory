@@ -5,6 +5,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.smartmemoryassistant.presentation.home.HomeScreen
+import com.smartmemoryassistant.presentation.home.HomeScreen1
 import com.smartmemoryassistant.presentation.splash.SplashScreen
 
 @Composable
@@ -21,7 +22,7 @@ fun MemoryNavHost(
             SplashScreen(onFinished = onSplashFinished)
         }
         composable(MemoryRoute.Home.route) {
-            HomeScreen()
+            HomeScreen1()
         }
     }
 }
