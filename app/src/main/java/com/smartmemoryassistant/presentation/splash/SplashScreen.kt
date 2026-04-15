@@ -1,5 +1,6 @@
 package com.smartmemoryassistant.presentation.splash
-
+import com.smartmemoryassistant.ui.theme.AccentBlue
+import com.smartmemoryassistant.ui.theme.AccentRed
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.tween
@@ -32,8 +33,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.smartmemoryassistant.ui.theme.AccentBlue
-import com.smartmemoryassistant.ui.theme.AccentRed
 import kotlinx.coroutines.delay
 
 @Composable
